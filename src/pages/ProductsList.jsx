@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import ProductCard from "../components/productCard";
+import ProductCard from "../components/ProductCard"
 
 
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  
+
 
   const getProducts = async () => {
     try {
